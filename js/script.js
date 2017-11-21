@@ -1,15 +1,13 @@
 // below are variables for the form
 
 var inputName = document.querySelector("#name");
-// type name here
+var inputAge = document.querySelector("#age");
+var inputColor = document.querySelector("#color");
 
 var buttonSubmit = document.querySelector("#button");
-// submit name button here
+var outputResult = document.querySelector("#results");
 
-var outputName = document.querySelector("#your-name");
-// output of name
-
-if (inputName && buttonSubmit && outputName) {
+if (inputName && buttonSubmit && outputResult) {
   buttonSubmit.addEventListener("click", function(event) {
     event.preventDefault();
 
